@@ -19,6 +19,9 @@
     , "commander": "*"
     , "colors": "*"
   }
+  , "devDependencies": {
+      "lodash": "*"
+  }
   , "scripts": {
   }
   , "bin": { "i18next-conv": "program.js" }
