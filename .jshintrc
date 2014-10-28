@@ -1,0 +1,22 @@
+{
+    "bitwise": true,
+    "boss": true,
+    "browser": true,
+    "camelcase": true,
+    "curly": true,
+    "esnext": true,
+    "eqeqeq": true,
+    "eqnull": true,
+    "immed": true,
+    "latedef": false,
+    "newcap": true,
+    "noarg": true,
+    "quotmark": "single",
+    "regexp": false,
+    "sub": true,
+    "smarttabs": true,
+    "trailing": false,
+    "undef": true,
+    "unused": false,
+    "predef": ["require", "module", "exports", "console", "GLOBAL", "process", "__dirname"]
+}
