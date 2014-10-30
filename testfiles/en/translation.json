@@ -10,5 +10,11 @@
     "friend_male": "A boyfriend",
     "friend_male_plural": "{count} boyfriends",
     "friend_female": "A girlfriend",
-    "friend_female_plural": "{count} girlfriends"
+    "friend_female_plural": "{count} girlfriends",
+    "friendMultiLine": [
+        "",
+        "girlfriends",
+        "or",
+        "boyfriends"
+    ]
 }
