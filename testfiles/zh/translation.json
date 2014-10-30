@@ -1,0 +1,14 @@
+{
+    "name": "名字",
+    "a": {
+        "apple": "我有1个苹果",
+        "apple_plural": "我有{count}个苹果",
+        "apple_negative": "我没有苹果"
+    },
+    "friend": "朋友",
+    "friend_plural": "{count}朋友",
+    "friend_male": "1个男朋友",
+    "friend_male_plural": "{count}个男朋友",
+    "friend_female": "1个女朋友",
+    "friend_female_plural": "{count}个女朋友"
+}

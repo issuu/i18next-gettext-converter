@@ -1,0 +1,36 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: node-gettext\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+msgid "name"
+msgstr "名字"
+
+msgid "a##apple"
+msgid_plural "a##apple"
+msgstr[0] "我有1个苹果"
+msgstr[1] "我有{count}个苹果"
+
+msgctxt "negative"
+msgid "a##apple"
+msgstr "我没有苹果"
+
+msgid "friend"
+msgid_plural "friend"
+msgstr[0] "1个朋友"
+msgstr[1] "{count}个朋友"
+
+msgctxt "male"
+msgid "friend"
+msgid_plural "friend"
+msgstr[0] "1个男朋友"
+msgstr[1] "{count}个男朋友"
+
+msgctxt "female"
+msgid "friend"
+msgid_plural "friend"
+msgstr[0] "1个女朋友"
+msgstr[1] "{count}个女朋友"
