@@ -24,7 +24,9 @@
         "mocha": "*",
         "chai": "*"
     },
-    "scripts": {},
+    "scripts": {
+        "test": "mocha test"
+    },
     "bin": {
         "i18next-conv": "program.js"
     }

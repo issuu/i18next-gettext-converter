@@ -4,11 +4,12 @@ var _ = require('lodash');
 var expect = require('chai').expect;
 var converter = require('../index');
 var compare = require('./json-compare');
+var path = require('path');
 
 describe('Create .json from .po', function() {
-    var pathToSrc = '../testfiles/__lang__/translation.po';
-    var pathToReference = '../testfiles/__lang__/translation.json';
-    var pathToTarget = '../tmp/translation-__lang__.json';
+    var pathToSrc = path.join(__dirname, '../testfiles/__lang__/translation.po');
+    var pathToReference = path.join(__dirname, '../testfiles/__lang__/translation.json');
+    var pathToTarget = path.join(__dirname, '../tmp/translation-__lang__.json');
 
     function testForLang(lang) {
         describe('test for lang: ' + lang, function() {

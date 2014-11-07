@@ -6,6 +6,7 @@ var expect = require('chai').expect;
 var converter = require('../index');
 var compare = require('./json-compare');
 var fs = require('fs');
+var path = require('path');
 
 function read(lang, filepath) {
     var gt = new Gettext();
@@ -15,9 +16,9 @@ function read(lang, filepath) {
 }
 
 describe('Create .po file from .json', function() {
-    var pathToSrc = '../testfiles/__lang__/translation.json';
-    var pathToReference = '../testfiles/__lang__/translation.po';
-    var pathToTarget = '../tmp/translation-__lang__.po';
+    var pathToSrc = path.join(__dirname, '../testfiles/__lang__/translation.json');
+    var pathToReference = path.join(__dirname, '../testfiles/__lang__/translation.po');
+    var pathToTarget = path.join(__dirname, '../tmp/translation-__lang__.po');
 
     function testForLang(lang) {
         describe('Test for lang: ' + lang, function() {
