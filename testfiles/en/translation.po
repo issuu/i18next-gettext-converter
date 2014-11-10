@@ -41,3 +41,9 @@ msgstr ""
 "girlfriends\n"
 "or\n"
 "boyfriends"
+
+#  some comment for some key
+#, fuzzy
+#, c-format
+msgid "somekey"
+msgstr "some value"

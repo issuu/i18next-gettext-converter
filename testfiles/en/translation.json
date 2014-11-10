@@ -16,5 +16,14 @@
         "girlfriends",
         "or",
         "boyfriends"
-    ]
+    ],
+    "somekey": "some value",
+    "//somekey": {
+        "comment": "some comment for some key",
+        "flag": [
+            "",
+            "fuzzy",
+            "c-format"
+        ]
+    }
 }
