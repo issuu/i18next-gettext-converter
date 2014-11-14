@@ -9,6 +9,9 @@ msgstr ""
 msgid "name"
 msgstr "name"
 
+#  some comment for some key
+#, fuzzy
+#, c-format
 msgid "a##apple"
 msgid_plural "a##apple"
 msgstr[0] "I have an apple"

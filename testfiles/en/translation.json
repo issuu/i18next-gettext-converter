@@ -3,7 +3,15 @@
     "a": {
         "apple": "I have an apple",
         "apple_plural": "I have {count} apples",
-        "apple_negative": "I have no apples"
+        "apple_negative": "I have no apples",
+        "//apple": {
+            "comment": "some comment for some key",
+            "flag": [
+                "",
+                "fuzzy",
+                "c-format"
+            ]
+        }
     },
     "friend": "Friend",
     "friend_plural": "{count} friends",
