@@ -15,7 +15,7 @@
         "node": ">= 0.6.0"
     },
     "dependencies": {
-        "node-gettext": "andris9/node-gettext#master",
+        "node-gettext": "^0.2.14",
         "commander": "*",
         "colors": "*"
     },
