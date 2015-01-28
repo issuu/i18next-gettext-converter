@@ -5,9 +5,8 @@
         "apple_plural": "I have {count} apples",
         "apple_negative": "I have no apples",
         "//apple": {
-            "comment": "some comment for some key",
+            "extracted": "some comment to translators for an apple",
             "flag": [
-                "",
                 "fuzzy",
                 "c-format"
             ]
@@ -27,9 +26,9 @@
     ],
     "somekey": "some value",
     "//somekey": {
-        "comment": "some comment for some key",
+        "translator": "some internal comment for some key",
+        "extracted": "some comment for some key",
         "flag": [
-            "",
             "fuzzy",
             "c-format"
         ]

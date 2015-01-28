@@ -9,7 +9,7 @@ msgstr ""
 msgid "name"
 msgstr "name"
 
-#  some comment for some key
+#. some comment to translators for an apple
 #, fuzzy
 #, c-format
 msgid "a##apple"
@@ -45,7 +45,8 @@ msgstr ""
 "or\n"
 "boyfriends"
 
-#  some comment for some key
+#  some internal comment for some key
+#. some comment for some key
 #, fuzzy
 #, c-format
 msgid "somekey"
