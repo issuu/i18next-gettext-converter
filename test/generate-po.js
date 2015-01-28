@@ -11,8 +11,9 @@ var path = require('path');
 function read(lang, filepath) {
     var gt = new Gettext();
     var body = fs.readFileSync(filepath);
+    console.log(body);
     gt.addTextdomain(lang, body);
-    return gt._domains[gt._textdomain]._translationTable;
+    return gt.domains[gt._currentDomain].translations;
 }
 
 describe('Create .po file from .json', function() {

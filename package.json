@@ -15,7 +15,8 @@
         "node": ">= 0.6.0"
     },
     "dependencies": {
-        "node-gettext": "^0.2.14",
+        "node-gettext": "^1.0.0",
+        "gettext-parser": "^1.1.0",
         "commander": "*",
         "colors": "*"
     },
