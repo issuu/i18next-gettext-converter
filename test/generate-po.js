@@ -12,7 +12,12 @@ function read(lang, filepath) {
     var gt = new Gettext();
     var body = fs.readFileSync(filepath);
     gt.addTextdomain(lang, body);
-    return gt.domains[gt._currentDomain].translations;
+    var translations = gt.domains[lang].translations;
+
+    // JSON file has no way to represent comments in header, so delete them
+    delete translations[''][''].comments;
+
+    return translations;
 }
 
 describe('Create .po file from .json', function() {
